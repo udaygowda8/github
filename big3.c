@@ -1,11 +1,11 @@
 
 #include <stdio.h> 
   
-int main() 
+void big3() 
 { 
     int A, B, C; 
   
-    printf("Enter the numbers A, B and C: "); 
+    printf("\nEnter the numbers A, B and C: "); 
     scanf("%d %d %d", &A, &B, &C); 
   
     if (A >= B && A >= C) 
@@ -17,5 +17,5 @@ int main()
     if (C >= A && C >= B) 
         printf("%d is the largest number.", C); 
   
-    return 0; 
+//    return 0; 
 } 

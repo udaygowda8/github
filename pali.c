@@ -1,8 +1,8 @@
 #include <stdio.h>
-int main()
+void pali()
 {
     int n, reversedInteger = 0, remainder, originalInteger;
-    printf("Enter an integer: ");
+    printf("\nEnter an integer: ");
     scanf("%d", &n);
     originalInteger = n;
     // reversed integer is stored in variable 
@@ -18,5 +18,5 @@ int main()
     else
         printf("%d is not a palindrome.", originalInteger);
     
-    return 0;
+//    return 0;
 }
